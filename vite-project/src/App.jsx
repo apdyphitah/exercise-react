@@ -1,11 +1,11 @@
 import React from 'react'
-import UserCard from './assets/ex1/UserCard'
+import Blog from './assets/ex2/Blog'
 function App() {
 
   return (
-    <>
-      <UserCard />
-    </>
+   
+      <Blog />
+   
   )
 }
 
