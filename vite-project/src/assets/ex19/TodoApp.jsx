@@ -1,7 +1,8 @@
 import { useState } from "react";
 import TodoInput from "./TodoInput";
-import TodoItem from "./TodoItem";
+// import TodoItem from "./TodoItem";
 import styles from "./TodoApp.module.css";
+import TodoItem from './TodoItem'
 
 function TodoApp() {
   const [todos, setTodos] = useState([
